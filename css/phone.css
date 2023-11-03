@@ -1,0 +1,52 @@
+body{
+    background-color: red;
+}
+#navbar{
+    width:100%;
+    margin-bottom:40px;
+    flex-direction:column;
+  
+}
+#navbar ul li a{
+    font-size: 1.5rem;
+    
+    
+}
+.navigation{
+    margin:-50px;
+}
+#Home p{
+    text-align:center;
+    margin:0px 10px;
+
+
+}
+
+.logo img{
+    padding-bottom:4px;
+}
+#Home h1{
+    margin-top: 200px;
+}
+
+/* Services section */
+#services{
+    /* flex-direction: column; */
+    
+}
+#services #box{
+    flex-direction:column;
+
+
+}
+ /* contact us section */
+#contact{
+
+}
+
+/* client section */
+#client{
+
+}
+/* footer section */
+

@@ -1,0 +1,283 @@
+/* CSS reset */
+*{
+    margin:0;
+    padding:0;
+}
+
+.logo img {
+    width: 78px;
+    height: 65px;
+    margin: 45px;
+    /* padding-bottom:10px; */
+    margin-left: 70px;
+}
+.navigation li {
+    margin:13px;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    position:absolute;
+    margin: -38px;
+    
+    
+
+}
+#navbar:before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: .3;
+
+}
+#navbar ul {
+    display:flex;
+}
+#navbar ul li {
+    list-style: none;
+
+}
+#navbar ul li a {
+    color:white;
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    /* text-shadow: 2px 2px; */
+    display:block;
+    padding:4px;
+    margin:8px;
+}
+#navbar ul li a:hover {
+    
+    color:rgb(0, 0, 0);
+    background-color:rgb(145, 245, 180);
+    border-radius: 15px;
+
+}
+
+/* CSS for  Home Section */
+
+#Home{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color:white;
+    margin-top:0%;
+    
+}
+#Home h1{
+    font-family: cursive;
+    margin-top:150px;
+    font-size: 30px;
+
+}
+#Home p{
+    width: 50%;
+    font-size: 1.2rem;
+    margin: 12px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+#Home button{
+    margin: 11px;
+    padding:3px 19px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+#Home::before{
+
+    content: "";
+    
+    position: absolute;
+    background: url('../img/tomato.jpg') no-repeat center center/cover ;
+    width:100%;
+    height:80%;
+    z-index:-1;
+    opacity: .8;
+    margin-bottom:100px;
+    
+    
+}
+
+/* CSS services */
+
+#services{
+    height: 400px;
+    
+    
+}
+
+#services h1{
+    margin-top:80px;
+    margin-bottom: 15px;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+}
+#services h3{
+    font-family:cursive;
+}
+#boxs{
+    display: flex;
+    margin: 2px;
+    padding:2px;
+
+    
+}
+.service_box1{
+    padding: 10px;
+    margin:5px;
+    width:50%;
+    border:2px solid brown;
+    height: 200px;
+    background-color: antiquewhite;
+    border-radius: 28px;
+    
+}
+.service_box1 img{
+   height:100px;
+   width: 160px;
+   display: block;
+   margin:auto;
+   background-color: antiquewhite;
+
+}
+.banana{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 2rem;
+}
+.pizza{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 2rem;
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 2rem;
+}
+.Service_Para1{
+    text-align: center;
+    font-style: italic;
+    
+
+}
+
+
+/* Our Client Section */
+
+#client{
+    height: 200px;
+
+}
+/* #client::before{
+    content: "";
+    position: absolute;
+    background: url('../img/tomato.jpg') no-repeat center center/cover ;
+    width:100%;
+    height:40%;
+    z-index:-1;
+    opacity: .3;
+    
+    
+} */
+#client h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-family:cursive;
+    /* text-decoration: underline; */
+}
+#logos{
+    display: flex;
+    justify-content: center;
+}
+.logo1 img{
+    height:100px;
+}
+
+
+/* contact us section */
+
+#contact{
+    height:400px;
+    position: relative;
+    
+    
+}
+#contact::before{
+    position:absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .4;
+    background:url("../img/contact-us-2993000_1920.jpg") no-repeat center center/cover;
+}
+#contact input, #contact textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    padding:4px;
+    
+}
+#contact label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#form-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: bold;
+    
+    
+    
+}
+#contact h1{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    
+}
+.footer{
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding:8px;
+    font-size: 1.5rem;
+    
+
+}
+
+
+
